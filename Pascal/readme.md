@@ -90,12 +90,13 @@ end
 ```
 
 Let's check if we're able to view the module and function documentation. In your shell type `elixirc pascal.ex` to compile the Pascal module and then run `iex`.
-(<img width="587" alt="elixirc_iex" src="https://user-images.githubusercontent.com/85004512/124881790-60d8db80-dfed-11eb-8a4f-390e8ccf64cf.png">
-)
+<img width="587" alt="elixirc_iex" src="https://user-images.githubusercontent.com/85004512/124881790-60d8db80-dfed-11eb-8a4f-390e8ccf64cf.png">
+
 
 Let's call the `h` commands on the Pascal module and the pascal_triangle function to view our documentation.
 
-![h_pascal](https://replit.com/@aa2dee2/Pascal-Triangle-in-Elixir#h_pascal.png)
+<img width="587" alt="h_pascal" src="https://user-images.githubusercontent.com/85004512/124882010-967dc480-dfed-11eb-9352-e2cf22fff2df.png">
+
 
 ## Doing the work - the pascal_recursion function
 We can get to writing the main function now!
@@ -170,7 +171,8 @@ In your iex shell, create a list `a = [1,2,3]` and another `b = [4,5,6]`.
 - to get the second element in b, we use `Enum.at(b, 1)`
 - to get the head & tail of a, we can do `[head | tail] = a`
 
-![Enum_head,tail](https://replit.com/@aa2dee2/Pascal-Triangle-in-Elixir#Enum_head,tail.png)
+<img width="587" alt="Enum_head,tail" src="https://user-images.githubusercontent.com/85004512/124882123-b01f0c00-dfed-11eb-8273-7e3a53cc7ed2.png">
+
 
 For every recursion in the pascal_recursion function, we will:
 
@@ -384,6 +386,7 @@ Elixir allows you to pass arguments from one function to another in a linear man
 
 Let's run our repl!
 
-![run_5](https://replit.com/@aa2dee2/Pascal-Triangle-in-Elixir#run_5.png)
+<img width="587" alt="run_5" src="https://user-images.githubusercontent.com/85004512/124882067-a5647700-dfed-11eb-841f-556cb3b8f0cc.png">
+
 
 Phew! This was one long tutorial. Hit me up with comments or any suggestions on improving the code.
