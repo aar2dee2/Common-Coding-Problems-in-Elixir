@@ -90,7 +90,7 @@ end
 ```
 
 Let's check if we're able to view the module and function documentation. In your shell type `elixirc pascal.ex` to compile the Pascal module and then run `iex`.
-![elixirc_iex](<img width="587" alt="elixirc_iex" src="https://user-images.githubusercontent.com/85004512/124881790-60d8db80-dfed-11eb-8a4f-390e8ccf64cf.png">
+(<img width="587" alt="elixirc_iex" src="https://user-images.githubusercontent.com/85004512/124881790-60d8db80-dfed-11eb-8a4f-390e8ccf64cf.png">
 )
 
 Let's call the `h` commands on the Pascal module and the pascal_triangle function to view our documentation.
